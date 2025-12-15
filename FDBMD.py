@@ -8,7 +8,7 @@ activities = {
     "Social": ["Call a friend you haven't spoken to in a while", "Attend a local meetup", "Invite someone for a coffee"]
 }
 
-st.title("Random Adventure Generator")
+st.title("Fun Day Before Monday")
 category = st.selectbox("Pick a category", list(activities.keys()))
 if st.button("Generate Activity"):
     st.subheader("Your Activity:")
@@ -16,4 +16,5 @@ if st.button("Generate Activity"):
 
 st.markdown("---")
 st.markdown("Made by **Ayaan D.** | [My Website](https://ayaandhalait.github.io)")
+
 
