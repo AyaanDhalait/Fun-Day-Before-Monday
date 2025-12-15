@@ -13,3 +13,7 @@ category = st.selectbox("Pick a category", list(activities.keys()))
 if st.button("Generate Activity"):
     st.subheader("Your Activity:")
     st.write(random.choice(activities[category]))
+
+st.markdown("---")
+st.markdown("Made by **Ayaan D.** | [My Website](https://ayaandhalait.github.io)")
+
